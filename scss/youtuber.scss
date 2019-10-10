@@ -1,3 +1,5 @@
+
+
 .youTuberModal {
   color: #fff !important;
   display: none;
@@ -6,10 +8,20 @@
   left: 0;
   width: 100%;
   position: absolute;
-  background: #000;
   text-align: center;
   height: 100vh;
+  animation: anim-name 1s;
+  animation-fill-mode: forwards;
 
+
+  @keyframes anim-name { 
+    from { 
+      background: rgba(250, 250, 250, 0);
+    } 
+    to {
+      background: rgb(29, 28, 31);  
+   }
+  }
   #youtuber {
     text-align: center;
     box-shadow: 0 0 40px #333;
@@ -45,7 +57,7 @@
       transition-duration: 0.1s;
 
       &:hover {
-        background: #333;
+        background: rgb(112, 109, 109);
       }
     }
   }
