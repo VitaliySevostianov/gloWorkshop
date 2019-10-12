@@ -15,13 +15,13 @@
 
 @-webkit-keyframes anim-name {
   from {
-    background: rgba(250, 250, 250, 0); }
+    background: rgba(29, 28, 31, 0); }
   to {
     background: #1d1c1f; } }
 
 @keyframes anim-name {
   from {
-    background: rgba(250, 250, 250, 0); }
+    background: rgba(29, 28, 31, 0); }
   to {
     background: #1d1c1f; } }
   .youTuberModal #youtuber {
